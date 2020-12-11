@@ -1796,6 +1796,9 @@ h4 span{
     }
 }
 @media only screen and (max-width:600px){
+    body{
+        overflow: hidden;
+    }
     .container .nav-menu{
         flex-direction: column;
         top: -10px;
